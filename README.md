@@ -6,10 +6,9 @@
 4. [Steps Involved](#Steps)
 5. [Instructions](#Instructions)
 6. [Prerequisites](#Libraries)
-7. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Introduction: <a name="Introduction"></a>
-Dog Breed classifier project of the Data Scientist Nanodegree by Udacity. A Web Application is developed using Flask through which a user can check if an uploaded image is that of a dog or human. Also, if the uploaded image is that of a human, the algorithm tells the user what dog breed the human resembles the most. The Deep Learning model distinguishes between the 133 classes of dogs with an accuracy of over 82.89%.
+Dog Breed classifier project of the Data Scientist Nanodegree by Udacity. A Web Application is developed using Flask through which a user can check if an uploaded image is that of a dog or human. Also, if the uploaded image is that of a human, the algorithm tells the user what dog breed the human resembles the most.
 
 ## Project Motivation<a name="motivation"></a>
 The goal of this project is to classify images of dogs according to their breed. When the image of a human is provided, it recommends the best resembling dog breed. I decided to opt for this project as I found the topic of Deep Neural Networks to be very fascinating and wanted to dive deeper into this with some practical work.
@@ -48,8 +47,8 @@ The repository consists of the Jupyter Notebook files from the Udacity classroom
 
 ## Instructions: <a name="Instructions"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-1. Clone this repository `git lfs clone https://github.com/mitkir/keras-flask-image-classifier`
-2. Open project's directory `cd keras-flask-image-classifier`
+1. Clone this repository `git lfs clone https://github.com/Andrew-Maged/DSND-Dog-Breed-Classifier`
+2. Open project's directory `cd DSND-Dog-Breed-Classifier`
 3. Install all necessary dependencies `pip install -r requirements.txt`
 4. Run application `python application.py`
 5. Open `http://127.0.0.1:5000/` on your browser
@@ -67,6 +66,3 @@ These instructions will get you a copy of the project up and running on your loc
 8. Scikit-Learn
 9. Flask
 10. Tensorflow
-
-## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data) .
